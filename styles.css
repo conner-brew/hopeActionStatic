@@ -27,7 +27,6 @@ a:visited, a:active {
 h1 {
     font-family: 'Poppins', sans-serif;
     font-weight: 700;
-    font-size: 4vw;
 }
 
 h2 {
@@ -97,6 +96,7 @@ h3 {
     margin-top: 30px;
     margin-bottom: 30px;
     text-shadow: 3px 3px #0E497A;
+    font-size: 4vw;
   }
   
   /* NEWSLETTER SIGNUP */
@@ -171,6 +171,61 @@ h3 {
 .contact:hover{
     color:black;
     text-shadow: 1px 1px black;
+}
+
+/* PROGRAMS */
+.carousel-wrapper{
+    width: 75%;
+    margin: auto;
+    padding: 5%;
+}
+
+.hero-wrapper{
+    margin: auto;
+    padding: 5%;
+}
+
+.program-name{
+    color:#0E497A;
+    text-shadow: 2px 2px #E0BC73;
+    text-align: center;
+    margin: 15px;
+    font-size: 3.5rem;
+}
+
+.program-header{
+    background-color: #0E497A;
+    color: white;
+    font-family: 'Poppins';
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding: 2%;
+    margin-bottom: 50px;
+}
+
+.program-food{
+    background-color: #f9f6ea;
+    font-family: 'Poppins';
+    color: white;
+    text-align: center;
+    padding: 2%
+}
+
+.program-neighborhood{
+    background-color:#f9f6ea;
+    color: black;
+    font-family: 'Poppins';
+    text-align: center;
+    padding: 2%;
+}
+
+.program-img{
+    border-radius: 10%;
+}
+
+.break{
+    color:#F9F6EA;
 }
 
 /* ANIMATIONS */
