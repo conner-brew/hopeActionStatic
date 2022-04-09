@@ -258,10 +258,6 @@ h3 {
     -ms-animation-iteration-count: 1;
     -ms-transform-origin: 50% 50%;
     -ms-animation-fill-mode:forwards; /*IE 10+*/
-
-    opacity:0;
-    opacity: 1\9;
-
 }
 
 .slide-up-fade-in2{
@@ -285,10 +281,6 @@ h3 {
     -ms-animation-iteration-count: 1;
     -ms-transform-origin: 50% 50%;
     -ms-animation-fill-mode:forwards; /*IE 10+*/
-
-    opacity:0;
-    opacity: 1\9;
-
 }
 
 .slide-up-fade-in3{
@@ -312,10 +304,6 @@ h3 {
     -ms-animation-iteration-count: 1;
     -ms-transform-origin: 50% 50%;
     -ms-animation-fill-mode:forwards; /*IE 10+*/
-
-    opacity:0;
-    opacity: 1\9;
-
 }
 
 .slide-up-fade-in5{
@@ -339,10 +327,6 @@ h3 {
     -ms-animation-iteration-count: 1;
     -ms-transform-origin: 50% 50%;
     -ms-animation-fill-mode:forwards; /*IE 10+*/
-
-    opacity:0;
-    opacity: 1\9;
-
 }
 
 @keyframes slide-up-fade-in{
@@ -401,4 +385,4 @@ h3 {
 } 
 
 
-	.clearfix {clear: both; zoom: 1;}
+.clearfix {clear: both; zoom: 1;}
