@@ -37,17 +37,17 @@ function Home() {
         <h2>How does it work?</h2>
         <div className="row" style={{ "margin": "30px" }}>
           <div className="col-lg-4 col-md-12">
-            <p className="feature-icon"><i class="fas fa-comments"></i></p>
+            <p className="feature-icon"><i className="fas fa-comments"></i></p>
             <h3 className="feature">Survey</h3>
             <p className="slide-up-fade-in5">We don't assume what people need. We ask. By starting our relationships thoughtfully, we get right to the root of the problem.</p>
           </div>
           <div className="col-lg-4 col-md-12">
-            <p className="feature-icon"><i class="fas fa-people-carry"></i></p>
+            <p className="feature-icon"><i className="fas fa-people-carry"></i></p>
             <h3 className="feature">Supply</h3>
             <p className="slide-up-fade-in5">Once we know the need, we fill the need by connecting people to life-giving services and resources.</p>
           </div>
           <div className="col-lg-4 col-md-12">
-            <p className="feature-icon"><i class="fas fa-hands-helping"></i></p>
+            <p className="feature-icon"><i className="fas fa-hands-helping"></i></p>
             <h3 className="feature">Support</h3>
             <p className="slide-up-fade-in5">We don't just fill a need once. We build relationships that last a lifetime, so we'll always be around when we're needed.</p>
           </div>
@@ -57,7 +57,7 @@ function Home() {
       <div className="tail">
         <button type="button" className="btn btn-outline-light btn-lg contact">
           <a href="https://linktr.ee/hopeactioncville">
-            <span class='contact'>Visit Us On Social Media!</span>
+            <span className='contact'>Visit Us On Social Media!</span>
           </a>
         </button>
       </div>

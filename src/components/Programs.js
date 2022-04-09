@@ -5,7 +5,7 @@ function Programs() {
   return (
     <>
       <div className="row program-header">
-        <h1 style={{"font-size" : "4rem"}} className="slide-up-fade-in1">Our Programs</h1>
+        <h1 style={{"fontSize" : "4rem"}} className="slide-up-fade-in1">Our Programs</h1>
       </div>
 
       <div className="row">
@@ -14,7 +14,7 @@ function Programs() {
       <div className="row program-food">
         <div className="col-lg-6 col-md-12">
           <div className="hero-wrapper">
-            <img src={foodImage} alt="" srcset="" width="95%" style={{"border-radius": "10%"}} className="slide-up-fade-in3" />
+            <img src={foodImage} alt="" width="95%" style={{"borderRadius": "10%"}} className="slide-up-fade-in3" />
           </div>
         </div>
 
@@ -42,7 +42,7 @@ function Programs() {
       <div className="row program-neighborhood">
         <div className="col-lg-6 col-md-12">
           <div className="hero-wrapper">
-            <img src={neighborhoodsImage} alt="" srcset="" width="95%" style={{"border-radius": "10%"}} className="slide-up-fade-in5" />
+            <img src={neighborhoodsImage} alt="" width="95%" style={{"borderRadius": "10%"}} className="slide-up-fade-in5" />
           </div>
         </div>
         <div className="col-lg-6 col-md-12">
