@@ -94,21 +94,21 @@
       <div class="col-lg-5 col-md-8 mx-auto">
         <h2>Get In Touch</h2>
         <p>Have questions? Want to know more? We'd love to hear from you.</p>
-        <form name="contact" data-netlify="true" method="POST"> 
+        <form name="contact-form" data-netlify="true" method="POST"> 
           <div class="mb-3">
             <label for="nameInput" class="form-label">Name</label>
-            <input type="text" class="form-control" id="nameInput" required>
+            <input type="text" name="name" class="form-control" id="nameInput" required>
             <div class="invalid-feedback">
               Please choose a username.
             </div>
           </div>
           <div class="mb-3">
             <label for="emailInput" class="form-label">Email Address</label>
-            <input type="email" class="form-control" id="emailInput" required>
+            <input type="email" class="form-control" name="email" id="emailInput" required>
           </div>
           <div class="mb-3">
             <label for="messageTextArea" class="form-label">Message</label>
-            <textarea class="form-control" id="messageTextArea" rows="4" required></textarea>
+            <textarea class="form-control" id="messageTextArea" name="message" rows="4" required></textarea>
           </div>
           <button type="submit" class="btn btn-primary">Submit</button>
         </form>
