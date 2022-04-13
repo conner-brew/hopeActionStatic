@@ -26,7 +26,7 @@ a:visited, a:active {
 
 h1 {
     font-family: 'Poppins', sans-serif;
-    font-weight: 700;
+    font-weight: 600;
 }
 
 h2 {
@@ -44,7 +44,7 @@ h3 {
 /* NAVBAR */
 
 .navbar{
-    padding: 20px;
+    padding: 20px 5px;
 }
 
 .navbarText{
@@ -173,6 +173,24 @@ h3 {
     text-shadow: 1px 1px black;
 }
 
+/* Page Heading */ 
+
+.page-header{
+    background-color: #0E497A;
+    color: white;
+    font-family: 'Poppins';
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding: 15px;
+    margin-bottom: 50px;
+}
+
+.page-header h1 {
+    font-size: 4rem;
+}
+
+
 /* PROGRAMS */
 .carousel-wrapper{
     width: 75%;
@@ -191,17 +209,6 @@ h3 {
     text-align: center;
     margin: 15px;
     font-size: 3.5rem;
-}
-
-.program-header{
-    background-color: #0E497A;
-    color: white;
-    font-family: 'Poppins';
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
-    padding: 2%;
-    margin-bottom: 50px;
 }
 
 .program-food{
@@ -234,6 +241,16 @@ h3 {
 .break{
     color:#F9F6EA;
 }
+
+/* CONTACT US */ 
+
+.contact-wrapper {
+    width: 50%; 
+    text-align: center; 
+    margin: auto;
+    margin-top:  50px;
+}
+
 
 /* ANIMATIONS */
 
