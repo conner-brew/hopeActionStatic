@@ -83,7 +83,7 @@ h3 {
     font-weight: bold;
     padding: 20px;
     text-align: center;
-    margin: 75px auto;
+    margin: 90px auto;
     text-shadow: 3px 3px #0E497A;
     font-size: 4vw;
   }
@@ -131,7 +131,7 @@ h3 {
 /* Info */
 .info{
     background-color: #f9f6ea;
-    padding: 25px;
+    padding: 40px 0px;
     text-align: center;
 }
 
@@ -170,12 +170,12 @@ h3 {
     color: white;
     font-family: 'Poppins';
     text-align: center;
-    margin-bottom: 50px;
+    margin-bottom: 60px;
 }
 
 .page-header h1 {
     font-size: 4rem;
-    padding: 20px;
+    padding: 25px;
 }
 
 /* PROGRAMS */
@@ -199,7 +199,7 @@ h3 {
 }
 
 .program-row {
-    margin-bottom: 90px;
+    margin-bottom: 120px;
 }
 
 .program-img{
@@ -225,6 +225,10 @@ h3 {
     text-align: center; 
     margin: auto;
     margin-top:  50px;
+}
+
+#contact-form button {
+    background-color:#0E497A;
 }
 
 
@@ -376,6 +380,3 @@ h3 {
         -ms-transform:  translate(0px,0px)  ;
     }
 } 
-
-
-.clearfix {clear: both; zoom: 1;}
