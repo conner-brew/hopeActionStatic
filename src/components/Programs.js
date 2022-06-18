@@ -14,7 +14,7 @@ function Programs() {
     <h1 className="program-name slide-up-fade-in2">Food Distribution</h1>
     <div className="row align-items-center justify-content-center program-row">
       <div className="col-lg-5 col-md-12 mb-lg-0 mb-4 px-5 px-lg-0">
-        <img src={foodImage} className="img-fluid slide-up-fade-in3"  style={{"borderRadius": "10%"}} />  
+        <img src={foodImage} className="img-fluid slide-up-fade-in3" style={{"borderRadius": "10%"}} alt="food distribution" />  
       </div>
       <div className="col-lg-5 col-md-12 px-lg-4">
         <p className="program-text slide-up-fade-in3">
@@ -37,7 +37,7 @@ function Programs() {
     <h1 className="program-name slide-up-fade-in3">Neighborhood Partnerships</h1>
     <div className="row align-items-center justify-content-center program-row">
       <div className="col-lg-5 col-md-12 mb-lg-0 mb-4 px-5 px-lg-0">
-        <img src={neighborhoodsImage} className="img-fluid slide-up-fade-in5" style={{"borderRadius": "10%"}} />
+        <img src={neighborhoodsImage} className="img-fluid slide-up-fade-in5" style={{"borderRadius": "10%"}} alt="neighborhood partnerships" />
       </div>
 
       <div className="col-lg-5 col-md-12 px-lg-4">
