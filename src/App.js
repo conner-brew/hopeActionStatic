@@ -1,6 +1,7 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import Layout from './components/Layout'
 import Home from './components/Home'
+import Contact from './components/Contact'
 import Programs from './components/Programs'
 import UnderConstruction from './components/UnderConstruction';
 
@@ -11,7 +12,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Layout />}>
           <Route index element={<Home />} />
-          <Route path="/contact" element={<UnderConstruction />}></Route>
+          <Route path="/contact" element={<Contact />}></Route>
           <Route path="/mission" element={<UnderConstruction />}></Route>
           <Route path="/team" element={<UnderConstruction />}></Route>
           <Route path="/programs" element={<Programs />}></Route>
